@@ -2,9 +2,8 @@ package com.pack.fabo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = YourApplication.class)
+@SpringBootTestApplication
 public class SampleProjectApplication {
 
 	public static void main(String[] args) {
